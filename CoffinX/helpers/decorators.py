@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from helpers.admins import get_administrators
-from config import SUDO_USERS
+from CoffinX.helpers.admins import get_administrators
+from CoffinX.config import SUDO_USERS
 
 
 def errors(func: Callable) -> Callable:
