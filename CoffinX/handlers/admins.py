@@ -26,10 +26,10 @@ import sys
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from pyrogram import filters, emoji
-from config import BOT_NAME as BN
-from helpers.filters import command, other_filters
-from helpers.decorators import errors, authorized_users_only
-from config import que, admins as a
+from CoffinX.config import BOT_NAME as BN
+from CoffinX.helpers.filters import command, other_filters
+from CoffinX.helpers.decorators import errors, authorized_users_only
+from CoffinX.config import que, admins as a
 
 @Client.on_message(filters.command('adminreset'))
 async def update_admin(client, message):
