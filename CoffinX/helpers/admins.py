@@ -19,7 +19,7 @@ from typing import List
 
 from pyrogram.types import Chat, User
 
-import cache.admins
+import CoffinX.cache.admins
 
 
 async def get_administrators(chat: Chat) -> List[User]:
