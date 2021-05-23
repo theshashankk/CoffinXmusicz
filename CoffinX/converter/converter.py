@@ -19,7 +19,7 @@
 from os import path
 import asyncio
 
-from helpers.errors import FFmpegReturnCodeError
+from CoffinX.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
