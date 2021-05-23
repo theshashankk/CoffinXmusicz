@@ -2,7 +2,7 @@ import io
 import sys
 import traceback 
 from pyrogram import Client, filters
-from config import SUDO_USERS
+from CoffinX.config import SUDO_USERS
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command("eval") & filters.group & ~filters.edited)
 async def eval(client, message):
